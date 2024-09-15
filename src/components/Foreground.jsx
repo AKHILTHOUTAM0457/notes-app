@@ -41,7 +41,7 @@ function Foreground() {
           type="text"
           value={newDesc}
           onChange={(e) => setNewDesc(e.target.value)}
-          placeholder="Enter card description"
+          placeholder="Enter your note "
           className="p-2 rounded-md  bg-zinc-700/50 w-1/3 border-zinc-900 outline-none focus:outline-black "
         />
         <button
